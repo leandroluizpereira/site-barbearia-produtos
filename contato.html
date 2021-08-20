@@ -23,7 +23,31 @@
     </header>
 
     <main>
-        teste
+        <form >
+             <label for="nomesobrenome">Nome e sobrenome</label>
+      
+            <input type="text" id="nomesobrenome" class="input-padrao">
+            <label for="email">Email</label>
+                  
+            <input type="text" id="email" class="input-padrao">
+            <label for="telefone">telefone</label>
+            <input type="text" id="telefone" class="input-padrao">
+             <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao">   
+            </textarea>
+            <p>Como prefere o nosso contato ?</p>
+            <div>
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">Email</label>
+                
+                <label for="radio-telefone"> <input type="radio" value="telefone" id="radio-telefone" name="contato">Telefone</label>
+               
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato">WhatsApp</label>
+                
+            </div>
+
+            <label for=""> <input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por email?</label>
+            <input type="submit" value="Enviar formulário">
+        </form>
     </main>
     <footer>
         <img src="static/imagem/logo-branco.png" alt="logotipo alura barbearia">
