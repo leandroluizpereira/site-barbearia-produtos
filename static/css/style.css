@@ -80,6 +80,7 @@ footer{
     text-align: center;
     background: url(../imagem/bg.jpg);
     padding: 40px 0;
+    
   
 }
 
@@ -91,7 +92,7 @@ footer{
 
 main{
     width: 940px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 form {
