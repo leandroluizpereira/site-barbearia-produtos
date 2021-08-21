@@ -151,42 +151,50 @@ td, th{
 
 
 
-
-
-
-
-
-
 body{
-    margin: 0px;
-  
+    font-family: 'Montserrat', sans-serif;
 }
-#banner{
+
+/* Css da página incial*/
+.banner{
     width: 100%;
 }
-.principal{
-    background-color:#cccccc;
-    padding:30px;
+.titulo-centralizado{
+    text-align:center;
+
 }
 .titulo-principal{
+    text-align: center;
+    font-size: 2em;
     padding-left:20px;
+    margin: 0 0 1em;
+    clear:left;
 }
 
+.principal p{
+  
+    padding:5px;
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
 
-p{
-text-align: center;
+}
+.principal em {
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0px 20px 20px 0px;
 
 }
 #missao{
     font-size: 20px;
-}
-em strong{
-    color:#ff0000;
+
 }
 
-.titulo-centralizado{
-    text-align:center;
-}
 .lista{
     display:inline-block;
     vertical-align:top;
