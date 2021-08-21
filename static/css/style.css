@@ -190,6 +190,27 @@ body{
     margin: 0px 20px 20px 0px;
 
 }
+
+.beneficios{
+    padding: 3em 0;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+.imagem-beneficio{
+    width: 60%;
+}
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lista-beneficios{
+    width: 40%;
+}
 #missao{
     font-size: 20px;
 
@@ -202,8 +223,14 @@ body{
     margin-right:15%;
 }
 .itens{
+    line-height: 1.5;
     font-style:italic;
 }
+
+.itens:first-child{
+    font-weight: bold;
+}
+
 .beneficios{
     background:#ffffff;
     padding:20px;
@@ -223,6 +250,6 @@ body{
 }
 
 .video{
-    margin: 1em auto;
+    margin: 2em auto;
     width: 560px;
 }
